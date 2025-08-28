@@ -39,6 +39,10 @@ class OnlineSalesRegisterCollector:
             total.append(self.__item_price[item])
 
 
+
+
+
+
         if len(self.__name_items) > 10:
             total_with_discount = list(map(lambda x: x * 0.9, total))
             return sum(total_with_discount)
